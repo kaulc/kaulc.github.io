@@ -1,23 +1,262 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    
+    <title>Hello, world!</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col col1">
+                1 of 3
+            </div>
+            <div class="col-8">
+                <div class="intro_container">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                    <div class="intro">
+                        <div class="container1 d-flex justify-content-center align-items-center">
+                            <h1>Hi there.</h1> 
+                        </div>
+                        <div class="container5 d-flex justify-content-center align-items-center">
+                            <p>Welcome to my website.</p>
+                        </div>
+                        <div class="container6 d-flex justify-content-center align-items-center">
+                            <p>Click one of the links to learn more about me.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="navbar" id="navbar">
+                        <div class="container2">
+                            <!--<div class="topnav-centered"><a href="#home">Home</a></div>
+                                <div class="topnav-centered"><a href="#home">Home</a></div>
+                                <div class="topnav-centered"><a href="#home">Home</a></div>
+                                <div class="topnav-centered"><a href="#home">Home</a></div>
+                                <div class="topnav-centered"><a href="#home">Home</a></div>-->
+                                <a href="#about">About</a>
+                                <a href="#experience">Experience</a>
+                                <a href="#projects">Projects</a>
+                                <a href="#resume">Resume</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                        </div>
+                        <div class="container3 d-flex justify-content-center align-items-center">
+                            <br><br>
+                            <p>Or, keep scrolling down -></p>
+                        </div>
+                    </div>
+                    <div class="body_container" id="about">
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                    </div>
+                    <div class="body_container" id="experience">
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                    </div>
+                    <div class="body_container" id="projects">
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                    </div>
+                    <div class="body_container" id="resume">
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                    </div>
+                    <div class="body_container" id="contact">
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                        <p>etc</p>
+                    </div>
+                </div>
+                <div class="col col3">
+                    3 of 3
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="jsfile.js"></script>
+    </body>
+    </html>
